@@ -1,4 +1,4 @@
-# This is a HTML, CSS and JavaScript Website
+# This is a HTML, CSS and TypeScript Website
 
 ## Description
 
