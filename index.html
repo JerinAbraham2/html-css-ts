@@ -1,0 +1,42 @@
+<!-- We'll make a commented version of each of these documents -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML-CSS-JS Website</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to a basic website using:</h1>
+            <!-- I think in jsx we use PascalCase, but here we use dashes (or hypens) -->
+            <ol id="lang-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+        </header>
+
+        <h1 id="main-heading">Welcome to my shop</h1>
+        <h1>Shop</h1>
+        <h2>Flowers</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <h2 class="item-title">Dandelions</h2>
+                <p>These lovely dandelions have been imported from Hawaii</p>
+                <button class="buy-button">Add to cart</button>
+            </div>
+            <div class="shop-item">
+                <h2 clas="item-title">Roses</h2>
+                <p>Pick up some lovely fresh roses, possible for a loved one</p>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- they have a way to talk to each other (api -> two different languages talk to each other) -->
+        <!-- put it as the last element in your body, or you put in the head, but you need to add extra stuff to tell it to wait -->
+        <script src="./script.js"></script>
+    </body>
+</html>

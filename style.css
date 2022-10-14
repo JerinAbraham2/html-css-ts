@@ -1,0 +1,62 @@
+/* My heading */
+header {
+    text-align: center;
+}
+#lang-list {
+    text-align: center;
+    font-size: x-large;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+#lang-list li {
+    text-align: center;
+}
+/* My heading */
+
+/* prev work */
+/* ruleset heading 1 */
+/* classes are used if there are multiple of them */
+/* classes by name is a group */
+/* id should only be one id */
+/* so when querying the id, it will only find the first one (javascript assumes you used the id tag properly)
+with classes it will look for all of them */
+
+/* Look at the selector specifity, hover over them to see what they are, and see which one takes priority */
+#main-heading {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 100;
+}
+/* by default the border takes the entire width of the display block*/
+/* we use percenteges for dynamics */
+
+/* how to center a div, is to give it a width of %50 and margin of auto (to automatically margin around) */
+.shop-item {
+    border: 2px solid black;
+    display: grid;
+    align-items: stretch;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+}
+.shop-items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* Learning flex is good to learn */
+.shop-item h1 {
+    border: 3px solid blue;
+}
+h2 {
+    margin-block: 1;
+}
+
+/* Priorities go, least tag, then class then id */
+/* The browser dev tools is very good for 
+user agent stylesheet is how the browser also styles it (which is why it may be different from browser to browser)
+if you want to override you have to add your own css and it will take priority over it
+*/
+/* prev work */
